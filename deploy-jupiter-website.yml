@@ -33,7 +33,7 @@
 
     - name: copy webfiles from the jupiter-main directory to the html directory
       copy: 
-        src: /var/www/html/main
+        src: /var/www/html/main/
         dest: /var/www/html
         remote_src: yes
 
