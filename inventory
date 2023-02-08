@@ -1,6 +1,6 @@
 10.0.2.45
 10.0.3.129
 
-#when ansible run python in webserver we want it to use py 2.7(compatible)
+
 [all:vars]
 ansible_python_interpreter=/usr/bin/python2.7
